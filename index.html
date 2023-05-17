@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoSlider</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    
+    <section>
+        <video id="slider" autoplay muted loop>
+            <source src="./videos/video1.mp4" type="video/mp4">
+        </video>
+
+        <ul class="navigation">
+            <li onclick="videoUrl('./videos/video1.mp4')"><img src="./photos/photo1.jpg"></li>
+            <li onclick="videoUrl('./videos/video2.mp4')"><img src="./photos/photo2.jpg"></li>
+            <li onclick="videoUrl('./videos/video3.mp4')"><img src="./photos/photo3.jpg"></li>
+            <li onclick="videoUrl('./videos/video4.mp4')"><img src="./photos/photo4.jpg"></li>
+        </ul>
+    </section>
+
+<script src="./slider.js"></script>
+</body>
+</html>
